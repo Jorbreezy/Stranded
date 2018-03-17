@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--jquery cdn-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- bootstrap stuff -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Connect css to html -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--Connect js to html -->
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <center>
+                <img id="logo" src="img/stranded.png">
+            </center>
+            <center>
+                <p id="sub-heading">If you can't find your way, we will</p>
+            </center>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="container-fluid">
+            <div class="form-group">
+                <div class="vehicle">
+                    <label>Type of Vehicle</label>
+                    <div class="holder">
+                        <div class="">
+                            <div name="car" class="car">
+                                <img class="thumbnail" src="https://cdn.vox-cdn.com/thumbor/HtsyeSUY5qMjCaPLtMIO1IoQ21Y=/0x0:2880x1350/1200x800/filters:focal(1102x445:1562x905)/cdn.vox-cdn.com/uploads/chorus_image/image/56659171/model_s_001.0.jpg" />
+                                <h4>
+                                    Car
+                                </h4>
+                            </div>
+
+                            <div name="ship" class="ship">
+                                <img class="thumbnail" src="https://s3-eu-west-2.amazonaws.com/sunseeker.yachts.multisite/wp-content/uploads/2016/01/01163129/B0003713-1280x840.jpg" />
+                                <h4>
+                                    Ship
+                                </h4>
+                            </div>
+
+                            <div name="plane" class="plane">
+                                <img class="thumbnail" src="http://media1.santabanta.com/full1/Air%20Transport/Planes/planes-151v.jpg" />
+                                <h4>
+                                    Plane
+                                </h4>
+                            </div>
+
+                            <hr/>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="e">
+                            <label>Type of Energy</label>
+                            <br />
+                            <center>
+                                <select style="width:300px; display:inline-block" class="energy form-control">
+                                </select>
+                            </center>
+                        </div>
+                    </div>
+
+                    <div class="data">
+
+                    </div>
+
+                    </hr>
+
+                </div>
+
+
+                <div id="map"></div>
+                <script src="js/map.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIiNfmbfdEATznleCyXG5nGo3uu2pj99c&callback=initMap">
+                </script>
+                <br>
+            </div>
+        </div>
+    </div>
+    </hr>
+    <footer class="footer" style="background-color: black; height: 70px;width:100%;">
+        <h3 style="color: white; margin-left: 10%;">&copy; Stranded.com 2018</h3>
+    </footer>
+
+
+</body>
+
+</html>

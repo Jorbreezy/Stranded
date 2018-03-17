@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+#title {
+    text-align: center;
+    color: #cccc00;
+    margin-bottom: 15%;
+    font-family: IBM Plex Serif;
+}
+
+#sub-heading {
+    color: white;
+    font-family: IBM Plex Serif;
+}
+
+.jumbotron {
+    background: url("https://images8.alphacoders.com/679/679478.jpg");
+    background-size: 100% 150%;
+    border-style: solid;
+}
+
+body {
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 133px;
+}
+
+.vehicle {
+    text-align: center;
+}
+
+.car,
+.ship,
+.plane {
+    display: inline-block;
+}
+
+.holder {
+    margin: 10px auto;
+    position: relative;
+}
+
+.footer {
+    background-color: #212121;
+    bottom: 5;
+    position: absolute;
+    width: 79.2%;
+    margin-right: 100px;
+    
+}
+
+#closer {
+    color: white;
+    margin-left: 5%;
+}
+
+h4 {
+    font-family: IBM Plex Serif;
+}
+label{
+    font-family:  IBM Plex Serif;
+}
+
+#logo {
+    margin-bottom: 10%;
+    width: 300px;
+    max-height: 150px;
+}
+
+.form-group {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://unsplash.com/photos/Bs0zgYkYEZw");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thumbnail:hover{
+    position: relative;
+    /*width: 300px;*/
+    /*height: auto;*/
+    display: block;
+    /*z-index: 999;*/
+    border-style: solid;
+      border-width: 2px;
+    border-color:#ED9886;
+}
+
+.thumbnail:active{
+    position: relative;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#ED9886;
+}
+
+input, select{
+    width: 300px !important;
+}
+
+#map {
+    height: 250px;
+    padding-top:10px;
+    padding-bottom:10px;
+}

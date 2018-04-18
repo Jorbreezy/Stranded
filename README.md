@@ -18,3 +18,7 @@ total energy produced
 
 distance = Energy produced / vehicle weight
 calculate distance from that formula
+
+MAP
+We used the google maps' API and it provided functionality for the highlighting of the radius. 
+So using these tools we used the distance in miles to show the radius that you can travel from the energy that is produced which results in the amount of miles. Results were used folr the maps to display the radius.  
